@@ -538,7 +538,5 @@ if __name__ == "__main__":
                   validation(X_valid_1,y_valid_1,X_test,y_test,type,sop)
                   pass
             del X_train,y_train,X_valid_1,y_valid_1,X_test,y_test,X_valid_2,y_valid_2
-#            del X_train,y_train,X_valid_1,y_valid_1,X_test,y_test
     except:
         print('error: ',ID)
-#        del X_train,y_train,X_valid_1,y_valid_1,X_test,y_test,X_valid_2,y_valid_2
